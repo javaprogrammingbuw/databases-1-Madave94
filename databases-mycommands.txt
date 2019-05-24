@@ -267,3 +267,5 @@ from status
 Where user_nick in (select userB
 from friends
 where userA = "madave")
+ORDER BY ID DESC
+limit 3
